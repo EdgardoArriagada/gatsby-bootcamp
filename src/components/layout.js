@@ -3,14 +3,15 @@ import Header from "./header"
 import Footer from "./footer"
 
 import "../styles/index.scss"
+import css from "./layout.module.scss"
 
 const Layout = ({ children }) => {
   return (
-    <React.Fragment>
+    <div className={css.container}>
       <Header />
-      {children}
+      <div className={css.content}>{children}</div>
       <Footer />
-    </React.Fragment>
+    </div>
   )
 }
 
