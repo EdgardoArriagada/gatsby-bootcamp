@@ -1,14 +1,15 @@
 import React from "react"
+import Layout from "../components/layout"
 
 const Contact = () => {
   return (
-    <React.Fragment>
+    <Layout>
       <h1>Contact</h1>
       <div>
         the best way to contact me is throught my email
         edgardo.arriagada.ortiz@gmail.com
       </div>
-    </React.Fragment>
+    </Layout>
   )
 }
 
