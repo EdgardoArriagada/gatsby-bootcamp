@@ -1,0 +1,28 @@
+.header {
+  padding: 1rem 0 3rem;
+}
+
+.title {
+  color: black;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.nav-list ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.link {
+  color: grey;
+  margin-right: 1.3rem;
+  text-decoration: none;
+  &:hover {
+    color: magenta;
+  }
+}
+
+.active-nav-item {
+  color: magenta;
+}
