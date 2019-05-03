@@ -13,7 +13,7 @@ const IndexPage = () => {
           <Link to="/contact"> Contact me</Link>
         </p>
         <Link to="/about"> About me</Link>
-        <Link to="/blog"> Blog me</Link>
+        <Link to="/blog"> Blog </Link>
       </Layout>
     </React.Fragment>
   )

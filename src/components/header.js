@@ -48,7 +48,7 @@ const Header = () => {
               activeClassName={css.activeNavItem}
               to="/blog"
             >
-              Blog me
+              Blog
             </Link>
           </li>
         </ul>
