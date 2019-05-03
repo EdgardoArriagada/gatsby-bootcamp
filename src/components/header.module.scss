@@ -16,13 +16,15 @@
 
 .link {
   color: grey;
+  padding-bottom: 0.05rem;
   margin-right: 1.3rem;
   text-decoration: none;
   &:hover {
-    color: magenta;
+    color: #1b1b1b;
   }
 }
 
 .active-nav-item {
-  color: magenta;
+  color: #1b1b1b;
+  border-bottom: 1px solid #1b1b1b;
 }
