@@ -26,7 +26,7 @@ const Blog = () => {
     const { frontmatter, fields } = edge.node
     const { title, date } = frontmatter
     return (
-      <li key={fields.slug + tittle + date}>
+      <li key={fields.slug + title + date}>
         <Link to={`/blog/${fields.slug}`}>
           <h2>Title: {title}</h2>
           <p>Date: {date}</p>
