@@ -26,19 +26,9 @@ const Header = () => {
             <Link
               className={css.link}
               activeClassName={css.activeNavItem}
-              to="/contact"
+              to="/"
             >
-              Contact me
-            </Link>
-          </li>
-
-          <li>
-            <Link
-              className={css.link}
-              activeClassName={css.activeNavItem}
-              to="/about"
-            >
-              About me
+              Home
             </Link>
           </li>
 
@@ -49,6 +39,25 @@ const Header = () => {
               to="/blog"
             >
               Blog
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              className={css.link}
+              activeClassName={css.activeNavItem}
+              to="/about"
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              className={css.link}
+              activeClassName={css.activeNavItem}
+              to="/contact"
+            >
+              Contact
             </Link>
           </li>
         </ul>
