@@ -4,6 +4,13 @@ module.exports = {
     author: "Edgardo Arriagada",
   },
   plugins: [
+    {
+      resolve: "gatsby-source-contentful",
+      options: {
+        spaceId: "",
+        accessToken: "",
+      },
+    },
     "gatsby-plugin-sass",
     {
       resolve: "gatsby-source-filesystem",
