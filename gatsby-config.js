@@ -1,3 +1,4 @@
+const { CONTENTFUL_SPACE_ID, CONTENTFUL_ACCESS_TOKEN } = process.env
 module.exports = {
   siteMetadata: {
     title: "Full-Stack Bootcamp",
@@ -7,8 +8,8 @@ module.exports = {
     {
       resolve: "gatsby-source-contentful",
       options: {
-        spaceId: "",
-        accessToken: "",
+        spaceId: CONTENTFUL_SPACE_ID,
+        accessToken: CONTENTFUL_ACCESS_TOKEN,
       },
     },
     "gatsby-plugin-sass",
