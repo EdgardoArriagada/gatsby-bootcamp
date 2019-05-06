@@ -54,7 +54,7 @@ const Blog = () => {
   })
 
   return (
-    <Layout>
+    <Layout title="Blog">
       <h1>Blog</h1>
       <p>Posts </p>
       <ol className={css.posts}>{Posts}</ol>
