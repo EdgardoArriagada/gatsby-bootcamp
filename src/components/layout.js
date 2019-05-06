@@ -4,10 +4,12 @@ import Footer from "./footer"
 
 import "../styles/index.scss"
 import css from "./layout.module.scss"
+import Head from "./head"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, title }) => {
   return (
     <div className={css.container}>
+      <Head title={title} />
       <Header />
       <div className={css.content}>{children}</div>
       <Footer />
